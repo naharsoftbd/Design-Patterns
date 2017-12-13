@@ -1,3 +1,4 @@
+<?php 
 Class Singleton{
     private static $instance;
     public function getInstance(){
@@ -12,3 +13,5 @@ Class Singleton{
 
 $singleton = Singleton::getInstance();
 $singleton->getSingletonMsg();
+
+?>
