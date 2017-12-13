@@ -9,3 +9,6 @@ Class Singleton{
           echo 'Hi! This is Singleton';
       }
 }
+
+$singleton = Singleton::getInstance();
+$singleton->getSingletonMsg();
